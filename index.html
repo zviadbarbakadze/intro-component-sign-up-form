@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <h1 class="learn-text">
+        Learn to code by<br/> watching others
+      </h1>
+      <p class="text">
+        See how experienced developers solve problems in real-time.<br/> Watching scripted tutorials is great, 
+        but understanding how <br/> developers think is invaluable.  
+      </p>
+    </div>
+    <div class="right">
+      <div class="try-free">
+        Try it free 7 days then $20/mo. thereafter
+      </div>
+      <form action="#" class="valida">
+        <div class="field-container">
+        <div class="field">
+          <input id="firstname"  type="text"  placeholder="First Name " value="">
+          <div class="divicon divicon1"><img src="./images/icon-error.svg" alt="error" class="error-icon"></div>
+          <p id="text" class="text1">First name can not be empty</p>
+        </div>
+        <div class="field">
+          <input id="lastname"type="text" placeholder="Last Name " value="">
+          <div class="divicon divicon2"><img src="./images/icon-error.svg" alt="error" class="error-icon"></div>
+          <p id="text" class="text2">Last Name can not be empty</p>
+        </div>
+        <div class="field">
+          <input  id="email" type="text"  placeholder=" Email Address" value="">
+          <div class="divicon divicon3"><img src="./images/icon-error.svg" alt="error" class="error-icon"></div>
+          <p id="text" class="text3">Looks Like this is not an email</p>
+        </div>
+        <div class="field">
+          <input id="password" type="password"  placeholder="Password" value="" >
+          <div class="divicon divicon4"><img src="./images/icon-error.svg" alt="error" class="error-icon"></div>
+          <p id="text" class="text4">Password can not be empty</p>
+        </div>
+        <div class="field green-button">
+          <button type="submit">CLAIM YOUR FREE TRIAL</button>
+          <br/>
+          <span class="terms"> By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></span>
+        </div>
+      </div>
+      </form>
+    </div>
+  </div>
+
+  
+
+  
+
+  
+
+  
+  
+ 
+  
+
+  
+
+ 
+  
+  <script src="app.js"></script>
+</body>
+</html>
